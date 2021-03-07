@@ -3,6 +3,7 @@
         {{ .Content }}
     </div>
 
+    {{/*
     <div class="articles h-feed">
         {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
         {{ range (.Paginate $pages).Pages }}
@@ -10,5 +11,6 @@
         {{ end }}
         {{ partial "pagination.html" . }}
     </div>
+    */}}
 
 {{ end }}
